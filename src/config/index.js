@@ -9,7 +9,7 @@ export function getEnvironment(_env) {
   return "development";
 }
 
-const env = process.env.REACT_APP_ENVIRONMENT;
+const env = process.env.REACT_APP_STAGE;
 
 const config = {
   production: {

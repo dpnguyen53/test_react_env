@@ -46,6 +46,7 @@ export default function HooksPage() {
 
   return (
     <div>
+      {process.env.NODE_ENV}
       <h3>Number: {number}</h3>
       <h3>Number Up: {countUpMemo}</h3>
       <button
